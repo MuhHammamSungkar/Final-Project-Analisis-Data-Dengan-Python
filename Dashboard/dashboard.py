@@ -4,7 +4,7 @@ import os
 import datetime
 from utils import *
 
-dir = r"C:\Hammy\Kuliah\10. Semester 6\MSIB\Data"
+dir = r"./Data"
 df_day = pd.read_csv(os.path.join(dir, "day.csv"))
 df_hour = pd.read_csv(os.path.join(dir, "hour.csv"))
 
